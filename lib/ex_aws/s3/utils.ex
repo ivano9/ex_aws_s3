@@ -16,7 +16,12 @@ defmodule ExAws.S3.Utils do
     :content_md5
   ]
 
-  @amz_headers [:website_redirect_location, :tagging, :tagging_directive]
+  @amz_headers [
+    :website_redirect_location,
+    :tagging,
+    :tagging_directive,
+    :write_offset_bytes
+  ]
 
   def put_object_headers(opts) do
     opts = opts |> Map.new()
