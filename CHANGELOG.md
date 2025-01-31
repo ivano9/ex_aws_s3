@@ -1,5 +1,9 @@
 # Changelog
 
+v2.5.7 (2025-01-31)
+
+- Add support header x-amz-write-offset-bytes to perform appending objects
+
 v2.5.6 (2024-12-13)
 
 - Fix compilation warning on Elixir 1.17
